@@ -1,0 +1,23 @@
+{
+  "name": "basic-playground",
+  "version": "0.0.0",
+  "description": "playground",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEV_ENV=true node server/dev",
+    "build": "browserify app/src/index.js -o app/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.8",
+    "browserify": "^16.1.0",
+    "express": "^4.16.2",
+    "tape": "^4.8.0",
+    "watchify": "^3.10.0"
+  }
+}
