@@ -36,7 +36,6 @@ function setupAppState () {
   }
 */
 function getState () {
-  console.log('--->', (location.origin === 'http://localhost:9009'), (location.origin === 'http://localhost:9009/'))
   if (location.origin === 'http://localhost:9009') return { todoLists: {
     'home': util.genTodoLists('home'),
     'red': util.genTodoLists('red'),
